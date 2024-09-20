@@ -24,13 +24,6 @@
 })();
 
 (function(){
-    var passGenForm = document.forms[0];
-    passGenForm['alphabet'].onchange = onCheckboxChange;
-    passGenForm['numbers'].onchange = onCheckboxChange;
-    passGenForm['special-chars'].onchange = onCheckboxChange;
-})();
-
-(function(){
     var form = document.forms[0];
     form['alphabet'].onchange = onCheckboxChange;
     form['numbers'].onchange = onCheckboxChange;
